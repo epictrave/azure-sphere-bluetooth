@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "AzureSphereBluetooth",
+  "ComponentId" : "1f6db5b4-2db8-4b67-bdc0-77100c68ce09",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [ 10, 16, 17, 12 ],
+    "Uart": [ "ISU0" ],
+    "WifiConfig": true,
+    "NetworkConfig": false,
+    "SystemTime": false
+  }
+}

@@ -1,0 +1,32 @@
+﻿main.c(490,55): warning :  initialization from incompatible pointer type [-Wincompatible-pointer-types]
+main.c(490,55): warning :  static event_data_t uartEventData = { .eventHandler = &UartEventHandler };
+main.c(490,55): warning :                                                        ^
+main.c(490,55): warning : main.c:490:55: note: (near initialization for 'uartEventData.eventHandler')
+  Azure Sphere Utility version 18.11.3.23758
+  Copyright (C) Microsoft Corporation. All rights reserved.
+   
+  Start time (UTC): Wednesday, 02 January 2019 04:47:05 
+  verbose: Creating image package. 
+  verbose: Azure Sphere application image package written. 
+  verbose: Appending metadata. 
+  verbose: Wrote metadata:
+    Section: Identity
+      Image Type:           Application
+      Component ID:         1f6db5b4-2db8-4b67-bdc0-77100c68ce09
+      Image ID:             13c8ec88-02f7-49cc-ae2a-3bc87dc6d863
+    Section: Signature
+      Signing Type:         ECDsa256
+      Cert:                 a8d5cc6958f48710140d7a26160fc1cfc31f5df0
+    Section: Debug
+      Image Name:           AzureSphereBluetooth
+      Built On (UTC):       2019. 1. 2. 오전 4:47:07
+      Built On (Local):     2019. 1. 2. 오후 1:47:07
+    Section: Temporary Image
+      Remove image at boot: False
+      Under development:    True
+    Section: ABI Depends
+      Depends on:           ApplicationRuntime, version 1
+   
+  verbose: Packaging completed successfully. 
+  verbose: Output file is at: C:\Users\janghun\source\repos\AzureSphereBluetooth\AzureSphereBluetooth\bin\ARM\Debug\AzureSphereBluetooth.imagepackage 
+  Command completed successfully in 00:00:01.6302246. 
